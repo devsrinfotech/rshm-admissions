@@ -1533,7 +1533,17 @@ textarea.form-control {
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  
+}
+
+@media only screen and (max-width: 768px) {
+  .lgx-banner {
+    background-image: linear-gradient(rgba(41, 41, 41, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/hero.png);
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: center -50%;
+  }
 }
 .lgx-banner .lgx-inner {
   position: static;
@@ -2230,6 +2240,18 @@ textarea.form-control {
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
+@media only screen and (min-width: 1200px) {
+  .campus-img{
+  max-width: 490px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .campus-img{
+  padding-bottom: 20px;
+  }
+}
 .lgx-single-course .course-info .course-author .title {
   font-size: 1.5rem;
   line-height: 2.25rem;
@@ -2521,11 +2543,13 @@ textarea.form-control {
   padding: 0;
 }
 .lgx-register {
-  background: url(../img/milestone-bg.jpg) top center no-repeat;
+  background: url(../img/cta_bg_banner.JPG) top center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-position: center ;
+
 }
 .lgx-register .lgx-inner {
   background: #6e318fbd;
@@ -4182,7 +4206,7 @@ textarea.form-control {
   display: block;
 }
 .lgx-footer-single .logo img {
-  max-width: 170px;
+  /* max-width: 170px; */
 }
 .lgx-footer-single address {
   margin-bottom: 1.5rem;
@@ -4212,7 +4236,7 @@ textarea.form-control {
 .lgx-footer-single ul li {
   font-family: Ubuntu, sans-serif;
   font-size: 1.5rem;
-  color: #888;
+  color: #fff;
   line-height: 3rem;
 }
 .lgx-footer-single ul li a {
