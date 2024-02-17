@@ -4750,6 +4750,12 @@ textarea.form-control {
     padding: 25rem 0 20rem;
   }
 }
+  
+  @media only screen and (min-width: 1200px) {
+    .content-row{
+      padding-top:80px;
+    }
+  }
 @media (min-width: 1200px) {
   .lg-text-center {
     text-align: center;
