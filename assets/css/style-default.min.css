@@ -2025,6 +2025,14 @@ textarea.form-control {
   -moz-background-size: contain;
   background-size: contain;
 }
+
+@media only screen and (min-width: 768px) {
+  .faculty-row{
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .lgx-about .lgx-heading {
   margin-bottom: 2.4rem;
   text-align: center;
